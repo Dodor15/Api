@@ -1,0 +1,14 @@
+<resources>
+    <string name="Main_preview">Рандомные анекдоты\n и Штирлиц</string>
+    <string name="btn_main">Выбор анекдотов</string>
+    <string name="Select">Выбери</string>
+    <string name="Non_series">Нет серии</string>
+    <string name="Apman_radio">Армянское радио</string>
+    <string name="Vinni_puh">Винни пух и все-все-все</string>
+    <string name="Vovochka">Вовочка</string>
+    <string name="PetyaAndVasiliyIvanovich">Петька и Василий Иванович</string>
+    <string name="ParuchikRjevskei">Паручик Ржевский</string>
+    <string name="Cheburashka_And_KrokodileGena">Чебурашка и крокодил Гена</string>
+    <string name="SherlokHolmes_And_doctorVatson">Шерлок и доктор Ватсон</string>
+    <string name="Shtirlec">Штирлец</string>
+</resources>

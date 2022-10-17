@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectActivity">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/nonStule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Non_series" />
+
+        <RadioButton
+            android:id="@+id/armanRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Apman_radio" />
+
+        <RadioButton
+            android:id="@+id/Vinni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Vinni_puh" />
+
+        <RadioButton
+            android:id="@+id/vova"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Vovochka" />
+
+        <RadioButton
+            android:id="@+id/petya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/PetyaAndVasiliyIvanovich" />
+
+        <RadioButton
+            android:id="@+id/rjjevsk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ParuchikRjevskei" />
+
+        <RadioButton
+            android:id="@+id/cheburashka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Cheburashka_And_KrokodileGena" />
+
+        <RadioButton
+            android:id="@+id/sherlock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/SherlokHolmes_And_doctorVatson" />
+
+        <RadioButton
+            android:id="@+id/shtirlec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Shtirlec" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+</androidx.constraintlayout.widget.ConstraintLayout>
